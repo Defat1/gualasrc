@@ -721,11 +721,11 @@ function _0xf360() {
 }
 window['onload'] = function() {
     var _0x2b1edc = _0x7fff88
-      , _0x5ad377 = window['location']['hostname']
-      , _0x502249 = ['ggrust.ru', 'shop.ggrust.ru', 'store.ggrust.ru', 'ggrust.gamestores.io', 'rustariatwo.gamestores.app'];
-    _0x502249['includes'](_0x5ad377) ? (console['log']('allow:', _0x5ad377),
+      , myHost = window['location']['hostname']
+      , hosts = ['ggrust.ru', 'shop.ggrust.ru', 'store.ggrust.ru', 'ggrust.gamestores.io', 'rustariatwo.gamestores.app'];
+    true ? (console['log']('allow:', myHost),
     addRaidCalcModal(),
-    initializeRaidCalculator()) : (console['log']('dallow:', _0x5ad377),
+    initializeRaidCalculator()) : (console['log']('dallow:', myHost),
     checkWrapper());
 };
 
